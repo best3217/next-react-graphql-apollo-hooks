@@ -1,0 +1,9 @@
+schema: 'server/schema/typeDefs.ts'
+documents: 'components/**/*.graphql'
+generates:
+  __generated__/typescript-operations.ts:
+    - typescript-operations
+    - typescript
+  server/__generated__/resolver-types.ts: 
+    - typescript
+    - typescript-resolvers

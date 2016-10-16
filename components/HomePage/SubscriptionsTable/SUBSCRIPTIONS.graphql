@@ -1,0 +1,7 @@
+query Subscriptions {
+    subscriptions {
+        id
+        email
+        source
+    }
+}
